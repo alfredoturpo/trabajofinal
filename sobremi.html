@@ -1,0 +1,153 @@
+<! DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Biografia
+        </title>
+        <link rel="author" type="text/plain" href="humans.txt"/>
+        <link rel="author" type="text/plain" href="humans.txt"/>
+        <link rel="stylesheet" href="css/estilo.css" />
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html">
+                    <img class="fade" alt="bextlan.com | lugar de ... bits, vectores y pixeles." src="img/uuu.jpg" />
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <ul>
+						<li><a href="index.html"><canvas id="iconoinicio" width="50" height="50"></canvas><br />Inicio</a></li>
+						<li><a href="noticias.html"><canvas id="icononoticias" width="50" height="50"></canvas><br />Noticias</a></li>
+						<li><a href="sobremi.html"><canvas id="iconosobreMi" width="50" height="50"></canvas><br />Sobre mi</a></li>
+						<li><a href="contacto.html"><canvas id="iconocontacto" width=50" height="50"></canvas><br />Contacto</a></li>
+					</ul>
+                </ul>
+            </nav>
+                                                                                                       
+        </header>
+        <section id="contenido">
+            <section id="principal">
+                                   
+                
+                <article id="galeria-inicio">
+                    <p id="nombre">Nombre: Alfredo Turpo Pachari</p>
+                    <a id="foto">
+                        <img class="fade" alt="Mi fotografia" src="img/hhh.jpg" />
+                    </a>
+                    
+                    <p><i><u>Biografia:</u></i></p>
+                                                                                
+                    <p>
+                    Ing.alfredo Turpo Pachari 
+                    estudio enla la ciudad de San  Roman Julica-Puno-Peru,ingreso  en 2012 ala universidad tecnologica del peru UTP ala carrera 
+                    profecioal de Ingenieria de Sistemas en la region de puno, tambien en el 2013 ingresa ala universidad nacioal del altiplano
+                    puno UNAP ala carrera profesional de Ingenieria  Electronica en el 2015 ingresa nuevamente ala UNAP ala carrera profesional
+                    de ingenieria Mecanica Electrica
+                
+                    </p>
+                   
+             
+                </article>
+            </section>
+                                                                                
+        
+        <footer>
+            Si quieres saber mas:  <a rel="author" href="http://gmail.com" target=""_bl>ing.alfredo.turpo@gmail.com</a>
+        </footer>
+    </body>
+</html>
+<script type="text/javascript">
+
+	var micolor = "White";
+	var miotrocolor = "Grey";
+	var mitercercolor = "Black";
+	var escala = 0.5;
+
+	//Dibujo el icono Sobre Mi
+	
+	var c=document.getElementById("iconosobreMi");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*25,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*90,escala*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+	//Dibujo el icono Contacto
+
+	var c=document.getElementById("iconocontacto");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10,escala*25,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10,escala*90,escala*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10,escala*25,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10,escala*90,escala*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+	//Dibujo el icono Inicio
+	
+	var c=document.getElementById("iconoinicio");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*40,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(mitercercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*30,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+	
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	//Dibujo el icono Noticias
+	
+	var c=document.getElementById("icononoticias");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+</script>
